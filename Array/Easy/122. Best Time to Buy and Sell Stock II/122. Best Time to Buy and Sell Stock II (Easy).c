@@ -26,6 +26,6 @@ int main()
     int nums[] = {1,2,3,4,1,8};
     int numsSize = (int)(sizeof(nums) / sizeof(nums[0]));
     int answer = maxProfit(nums, numsSize);
-    printf("³Ì¤j¦¬¯q(profit) %d\n",answer);
+    printf("MaxProfit %d\n",answer);
     return 0;
 }
